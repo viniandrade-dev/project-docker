@@ -6,7 +6,7 @@ const routes = express();
 
 const tasksController = require('../controllers/Tasks');
 
-routes.use(cors()); 
+routes.use(cors());
 routes.use(express.json());
 
 routes.use(morgan('tiny'));
